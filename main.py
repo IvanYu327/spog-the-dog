@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
+#^ setupt for the Ev3 to interpret python code
 
+#get all the imports needed
 from ev3dev2.motor import LargeMotor, OUTPUT_A, OUTPUT_B
 from ev3dev2.motor import SpeedPercent, MoveTank
 from ev3dev2.motor import MediumMotor, OUTPUT_D
@@ -16,6 +18,7 @@ from ev3dev2.sound import Sound
 from time import sleep
 from threading import Thread
 
+# Declare all my sensors and motors
 frontLegs = LargeMotor(OUTPUT_A)
 backLegs = LargeMotor(OUTPUT_B)
 
@@ -26,7 +29,6 @@ ir = InfraredSensor(INPUT_1)
 
 
 # Indicated sput is up and running
-
 sound = Sound()
 sound.play_tone(500, 0.5,play_type = 1)
 
