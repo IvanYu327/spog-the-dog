@@ -12,6 +12,7 @@ Unfortunately, Spog also:
 - Can't get up after falling
 - Can't carry anything
 - Can't climb stairs
+- Is generally useless
 
 I guess that's the tradeoff of having a LEGO robot dog built over 5 weeks instead of a $70,000 robot dog.
 
